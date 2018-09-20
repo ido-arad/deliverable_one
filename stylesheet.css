@@ -2,8 +2,8 @@ body {
     background-color: rgb(61, 207, 200);
 }
 h1 {
-    font-family: 'Suez One', serif;
-    color: darkgreen;
+    font-family: 'Asap Condensed', sans-serif;
+    color: rgb(4, 99, 25);
     text-align: center;
 }
 h2, h3 {
@@ -24,7 +24,8 @@ h6 {
 p {
     font-family: 'Quando', sans-serif;
     text-align: center;
-    margin: 30px auto;
+    margin: 40px auto;
+    line-height: 1.6;
 }
 nav {
     font-family: 'Paytone One', sans-serif;
@@ -88,7 +89,6 @@ ul {
 .row a {
 margin-right: 10px;
 }
-
 @media only screen and (min-width: 768px) {
     .row {
         flex-direction: row;
