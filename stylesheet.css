@@ -3,12 +3,14 @@ body {
 }
 h1 {
     font-family: 'Asap Condensed', sans-serif;
+    font-size:12vw;
     color: rgb(4, 99, 25);
     text-align: center;
 }
 h2, h3 {
     font-family: 'Quando', serif;
     text-align: center;
+    font-size: 5vw;
 }
 h4 {
     font-family: 'Mukta Mahee', sans-serif;
@@ -17,6 +19,7 @@ h4 {
 h5 {
     font-family: 'Quando', sans-serif;
     text-align: left;
+    font-size: 2vw;
 }
 h6 {
     font-family: 'Mukta Mahee', sans-serif;
@@ -26,7 +29,12 @@ p {
     text-align: center;
     margin: 40px auto;
     line-height: 1.6;
+    font-size: 3vw
 }
+textarea {
+    height: 300px;
+    outline: none;
+}  
 nav {
     font-family: 'Paytone One', sans-serif;
     word-spacing: 10px;
@@ -44,6 +52,13 @@ a:link {
 a:hover {
     color: white;
 }
+button {
+    width:100%;
+}
+.button-container {
+    width: 50%;
+    margin: 0px auto;
+}
 img {
     display: block;
     margin: 20px auto;
@@ -59,6 +74,7 @@ input[type=text], select, textarea {
     margin-top: 6px; 
     margin-bottom: 16px;
     resize: vertical;
+    outline: none;
 }
 input[type=submit] {
     background-color: seagreen;
@@ -68,12 +84,24 @@ input[type=submit] {
     border-radius: 20px;
     cursor: pointer;
 }
+label {
+    font-family: 'Quando', serif;
+}
 li {
     margin-left: 40px;
     margin-right: 40px;
 }
+ul, ol {
+    font-family: 'Quando', serif;
+    margin: 5% auto;
+    padding: 0px;
+    line-height: 1.6;
+}
 ul {
-    margin-left: 50px;
+    width: 50%;
+}
+ol {
+    width: 75%;
 }
 .container {
     background-color: rgb(199, 231, 230);
